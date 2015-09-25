@@ -78,6 +78,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		710619101BB5136500E5F6B4 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		710619111BB5139800E5F6B4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		710619121BB513C000E5F6B4 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Category;
+			sourceTree = "<group>";
+		};
+		710619131BB5141700E5F6B4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		71C42BF51BB38E95009F7CA9 = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +129,10 @@
 		71C42C001BB38E95009F7CA9 /* HobbyFriends */ = {
 			isa = PBXGroup;
 			children = (
+				710619131BB5141700E5F6B4 /* Views */,
+				710619121BB513C000E5F6B4 /* Category */,
+				710619111BB5139800E5F6B4 /* Model */,
+				710619101BB5136500E5F6B4 /* ViewControllers */,
 				71C42C041BB38E95009F7CA9 /* AppDelegate.h */,
 				71C42C051BB38E95009F7CA9 /* AppDelegate.m */,
 				71C42C071BB38E95009F7CA9 /* ViewController.h */,
@@ -496,6 +528,7 @@
 				71C42C2D1BB38E96009F7CA9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		71C42C2E1BB38E96009F7CA9 /* Build configuration list for PBXNativeTarget "HobbyFriendsTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +537,7 @@
 				71C42C301BB38E96009F7CA9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		71C42C311BB38E96009F7CA9 /* Build configuration list for PBXNativeTarget "HobbyFriendsUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +546,7 @@
 				71C42C331BB38E96009F7CA9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
