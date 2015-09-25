@@ -12,6 +12,8 @@
 		7106191E1BB51EDA00E5F6B4 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7106191C1BB51EDA00E5F6B4 /* LoginViewController.xib */; settings = {ASSET_TAGS = (); }; };
 		710619221BB51EED00E5F6B4 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 710619201BB51EED00E5F6B4 /* MainViewController.m */; settings = {ASSET_TAGS = (); }; };
 		710619231BB51EED00E5F6B4 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 710619211BB51EED00E5F6B4 /* MainViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		710619251BB5206700E5F6B4 /* text.xib in Resources */ = {isa = PBXBuildFile; fileRef = 710619241BB5206700E5F6B4 /* text.xib */; settings = {ASSET_TAGS = (); }; };
+		710619271BB5207A00E5F6B4 /* text.xib in Resources */ = {isa = PBXBuildFile; fileRef = 710619261BB5207A00E5F6B4 /* text.xib */; settings = {ASSET_TAGS = (); }; };
 		71C42C031BB38E95009F7CA9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 71C42C021BB38E95009F7CA9 /* main.m */; };
 		71C42C061BB38E95009F7CA9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 71C42C051BB38E95009F7CA9 /* AppDelegate.m */; };
 		71C42C091BB38E95009F7CA9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71C42C081BB38E95009F7CA9 /* ViewController.m */; };
@@ -48,6 +50,8 @@
 		7106191F1BB51EED00E5F6B4 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		710619201BB51EED00E5F6B4 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		710619211BB51EED00E5F6B4 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		710619241BB5206700E5F6B4 /* text.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = text.xib; sourceTree = "<group>"; };
+		710619261BB5207A00E5F6B4 /* text.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = text.xib; sourceTree = "<group>"; };
 		71C42BFE1BB38E95009F7CA9 /* HobbyFriends.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HobbyFriends.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		71C42C021BB38E95009F7CA9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		71C42C041BB38E95009F7CA9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -111,6 +115,7 @@
 		710619121BB513C000E5F6B4 /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				710619261BB5207A00E5F6B4 /* text.xib */,
 			);
 			name = Category;
 			sourceTree = "<group>";
@@ -118,6 +123,7 @@
 		710619131BB5141700E5F6B4 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				710619241BB5206700E5F6B4 /* text.xib */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -320,6 +326,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				710619271BB5207A00E5F6B4 /* text.xib in Resources */,
+				710619251BB5206700E5F6B4 /* text.xib in Resources */,
 				7106191E1BB51EDA00E5F6B4 /* LoginViewController.xib in Resources */,
 				71C42C111BB38E95009F7CA9 /* LaunchScreen.storyboard in Resources */,
 				710619231BB51EED00E5F6B4 /* MainViewController.xib in Resources */,
