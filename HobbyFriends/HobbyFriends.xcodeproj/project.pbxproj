@@ -22,6 +22,7 @@
 		71C42C111BB38E95009F7CA9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71C42C0F1BB38E95009F7CA9 /* LaunchScreen.storyboard */; };
 		71C42C1C1BB38E96009F7CA9 /* HobbyFriendsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 71C42C1B1BB38E96009F7CA9 /* HobbyFriendsTests.m */; };
 		71C42C271BB38E96009F7CA9 /* HobbyFriendsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 71C42C261BB38E96009F7CA9 /* HobbyFriendsUITests.m */; };
+		FD588177CED4A79FC94621E9 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 508066D53F2810AB8A8ABF7C /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		508066D53F2810AB8A8ABF7C /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		710619151BB51DD100E5F6B4 /* InAppSetting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InAppSetting.h; sourceTree = "<group>"; };
 		710619161BB51DD100E5F6B4 /* InAppSetting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InAppSetting.m; sourceTree = "<group>"; };
 		7106191A1BB51EDA00E5F6B4 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
@@ -68,6 +70,8 @@
 		71C42C221BB38E96009F7CA9 /* HobbyFriendsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HobbyFriendsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		71C42C261BB38E96009F7CA9 /* HobbyFriendsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HobbyFriendsUITests.m; sourceTree = "<group>"; };
 		71C42C281BB38E96009F7CA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E1A651FB8B18AB3F5431A15 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		DD2D4B218D33E319A0791C5D /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD588177CED4A79FC94621E9 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,6 +100,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		21D253C72670577481AE5A97 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8E1A651FB8B18AB3F5431A15 /* Pods.debug.xcconfig */,
+				DD2D4B218D33E319A0791C5D /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		710619101BB5136500E5F6B4 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
@@ -164,6 +178,8 @@
 				71C42C1A1BB38E96009F7CA9 /* HobbyFriendsTests */,
 				71C42C251BB38E96009F7CA9 /* HobbyFriendsUITests */,
 				71C42BFF1BB38E95009F7CA9 /* Products */,
+				21D253C72670577481AE5A97 /* Pods */,
+				A4C7DEAD017E44AE902C94F7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -223,6 +239,14 @@
 			path = HobbyFriendsUITests;
 			sourceTree = "<group>";
 		};
+		A4C7DEAD017E44AE902C94F7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				508066D53F2810AB8A8ABF7C /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -230,9 +254,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 71C42C2B1BB38E96009F7CA9 /* Build configuration list for PBXNativeTarget "HobbyFriends" */;
 			buildPhases = (
+				488F3ACE55A47E432AB26D8F /* Check Pods Manifest.lock */,
 				71C42BFA1BB38E95009F7CA9 /* Sources */,
 				71C42BFB1BB38E95009F7CA9 /* Frameworks */,
 				71C42BFC1BB38E95009F7CA9 /* Resources */,
+				D1D057C170ECDD69D1DC1701 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -351,6 +377,39 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		488F3ACE55A47E432AB26D8F /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D1D057C170ECDD69D1DC1701 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		71C42BFA1BB38E95009F7CA9 /* Sources */ = {
@@ -499,6 +558,7 @@
 		};
 		71C42C2C1BB38E96009F7CA9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E1A651FB8B18AB3F5431A15 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = HobbyFriends/Info.plist;
@@ -510,6 +570,7 @@
 		};
 		71C42C2D1BB38E96009F7CA9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD2D4B218D33E319A0791C5D /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = HobbyFriends/Info.plist;
